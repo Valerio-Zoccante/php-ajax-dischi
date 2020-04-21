@@ -1,0 +1,80 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TAG GENERICI */
+
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 1500px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 150px;
+}
+
+/* HEADER */
+
+header {
+  height: 80px;
+  width: 100%;
+}
+
+header #logo {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-around;
+}
+
+header #logo img {
+  height: 60px;
+}
+
+/* MAIN */
+
+.album {
+  width: 200px;
+  height: 250px;
+  margin: 0 0 80px 80px;
+}
+
+.album .immagine {
+  height: 150px;
+}
+
+.album .titolo {
+  color: white;
+  font-size: 20px;
+  height: 10%;
+  width: 70%;
+  text-align: center;
+}
+
+.album .artista {
+  color: white;
+  height: 10%;
+  width: 70%;
+  text-align: center;
+}
+
+.album .anno {
+  color: white;
+  height: 10%;
+  width: 70%;
+  text-align: center;
+}
+
+/* FOOTER */
+

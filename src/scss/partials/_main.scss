@@ -1,0 +1,27 @@
+.album {
+    width: 200px;
+    height: 250px;
+    margin: 0 0 80px 80px;
+    .immagine {
+        height: 150px;
+    }
+    .titolo {
+        color: $font;
+        font-size: 20px;
+        height: 10%;
+        width: 70%;
+        text-align: center;
+    }
+    .artista {
+        color: $font;
+        height: 10%;
+        width: 70%;
+        text-align: center;
+    }
+    .anno {
+        color: $font;
+        height: 10%;
+        width: 70%;
+        text-align: center;
+    }
+}
